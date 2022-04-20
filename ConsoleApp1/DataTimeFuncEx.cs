@@ -55,6 +55,19 @@ namespace ConsoleApp1
             Console.WriteLine(Date9.DayOfWeek);
             Console.WriteLine((int)Date9.DayOfWeek);
 
+            DateTime Date12 = DateTime.Now;
+            Console.WriteLine(Date12.ToString("MM/dd/yyyy"));
+            Console.WriteLine(Date12.ToString("dddd, dd MMMM yyyy"));
+            Console.WriteLine(Date12.ToString("dddd, dd MMMM yyyy HH:mm:ss"));
+            Console.WriteLine(Date12.ToString("MM/dd/yyyy HH:mm tt"));
+            Console.WriteLine(Date12.ToString("MMMM dd "));
+            Console.WriteLine(Date12.ToString("yyyy'-'MM'-'dd HH':'mm':'ss"));
+            Console.WriteLine(Date12.ToString("h:mm tt"));
+
+
+
+
+
 
 
 
