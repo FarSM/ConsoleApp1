@@ -11,7 +11,7 @@ namespace ConsoleApp1
 
         public static void Main()
         {
-            FileStream fs = new FileStream( "~/abc.txt",  FileMode.Create , FileAccess.ReadWrite);
+            FileStream fs = new FileStream(@"D:\C#Programs\ConsoleApp1\ConsoleApp1\abc1.txt",  FileMode.OpenOrCreate, FileAccess.ReadWrite);
 
             for(int i = 0; i <= 20; i++)
             {
